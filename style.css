@@ -1,0 +1,79 @@
+
+        *{
+    margin:none;
+}
+body{
+    background-color:#800050;
+    color:silver;
+    padding: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#namecontact{
+    float: right;
+    width: 50vw;
+    padding:1px;
+    color:dimgray;
+    
+}
+[myname] {
+    line-height: 0.3;
+}
+#profilepic{
+    border-radius: 50%;
+    border-width:5px;
+    border-style: solid;
+    border-color:dimgray;
+}
+a{
+    color: dimgray;
+}
+#profile{
+    background-color: dimgray;
+    border: 1px solid #800050;
+    color: black;
+    padding: 1px;
+}
+#experience{
+    float: left;
+    width: 40vw;
+    border: 1px;
+    padding:5px;
+}
+#contactpage{
+    float: left;
+    background: #800050;
+	padding: 30px;
+    margin: 50px 10% 50px 10%;
+    border: 2px solid dimgray;
+    border-radius: 10px;
+    display: block;
+    min-height: 35px;
+}
+.field{
+    box-sizing: border-box; 
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box; 
+    padding: 8px;
+    outline: none;
+    border: 1px solid #ffc001;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+  }
+  
+.dates {
+    text-align: right;
+    color:dimgray;
+}
+#education{
+    float: right;
+    width: 47vw;
+    border-right: 1px;
+    border-left: 2px;
+    padding: 5px;
+}
+h3{
+    color:dimgray;
+}

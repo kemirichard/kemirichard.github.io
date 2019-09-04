@@ -1,0 +1,93 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Oluwakemi CV</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+</head>
+<body>
+    <div class="mycv">
+            <img src="https://res.cloudinary.com/dkrvyglpf/image/upload/v1566584397/IMG_20190712_113427_7_bwmbdz.jpg" alt="My Picture" width="100" id="profilepic">
+            <!--Name and Contact Information-->
+                <div id="namecontact">
+                    <div myname>
+                    <h1>OLUWAKEMI BLESSING RICHARD</h1><br/>
+                    </div>
+                    <p>12 William Ayameh Street, Off Miyaki, Oworonshoki,Lagos.<br/><a href="tel:+2348109958855">08109958855</a>, <a href="mail to:kemierichard@gmail.com" target="_blank">kemierichard@gmail.com</a></p>
+                </div>
+            <div id="profile"><!--Details on Work Experience and Expertise-->
+                <h2>Professional Summary</h2>
+                <p>A Professional Quantity Surveyor skilled in Cost Estimating and Contract Management with a strong interest in Web Development, Data Analysis and Data Science</p>
+            </div>
+                   
+            <div id="experience">
+                    <h3>Experience</h3>
+                    <p class="dates">FEBRUARY 2018 - PRESENT</p>
+                    <p><b>Safety and Santary Engineering Company Limited</b> -<br/><i>Quantity Surveyor</i></p>
+                        <ul>
+                            <li>Preparation of Interim Valuations</li>
+                            <li>Preparation of Bill of Quantities</li>
+                            <li>Site Supervsion</li>
+                            <li>Project Management</li>
+                        </ul>
+                    
+                        <p class="dates">MAY 2016 - MAY 2017</p>
+                    
+                        <p><b>A and J Estates, Ogudu, Lagos</b> -<br/><i>Quantity Surveyor (NYSC)</i></p>
+                   
+                            <ul>
+                                <li>Procurement Management</li>
+                                <li>Stock Inventory</li>
+                                <li>Preparation of Bills of Quantities</li>
+                                <li>Site Supervision</li>
+                            </ul>
+                       
+                            <p class="dates">JUNE 2015 - APRIL 2016</p>
+                            <p><b>Home Contracts Limited, Mokola, Ibadan</b> -<br/><i>Trainee Quantity Surveyor (Pre NYSC)</i></p>
+                        
+                                <ul>
+                                    <li>Estimating of Quantities</li>
+                                    <li>Preparation of Interim Valuations</li>
+                                    <li>Office Administaration</li>
+                                </ul>
+            </div>
+            <div id="education">
+                    <h3>Education</h3>
+                    <p class="dates">APRIL 2010 - APRIL 2015</p>
+                    <p><b>Obafemi Awolowo University, Ile-ife</b> -<i>BSc Quantity Surveying (Pre NYSC)</i></p>
+                    <p>I excelled with “A” grades in courses like Measurement of Building Works, Measurement of Civil Works, Professional Practice and Operations Research.</p>
+                    <h3>Skills</h3>
+                        <ul>
+                            <li>Cost Estimating</li>
+                            <li>Advanced Microsoft Excel</li>
+                            <li>Teamwork and Communication Skills</li>
+                            <li>HTML and CSS</li>
+                        </ul>
+                    <h3>Activities</h3>
+                            <ul>
+                                <li>Member ICT Community Development Service (CDS) group, Kosofe LGA, Lagos, 2016-2017.</li>
+                                <li>Treasurer, Nigerian Institute of Quantity Surveying Student, OAU chapter, 2012-2013.</li>
+                                <li>Treasurer, Young Readers Club (High School).</li>
+                                <li>Volunteer worker for Beyond Ife, 2015 , a pre-employment seminar organised for over 600 participants at Obafemi Awolowo University.</li>
+                            </ul>
+            </div>
+            <div id="contactpage">
+                <form name="contactform" onsubmit="return validatedata()">
+                    <h3>Contact Me Here!</h3>
+                    <h4>Kindly fill this form to get in touch</h4>
+                        <label for="fullname">Fullname:</label><br/>
+                        <input type="text" name="fullname" class="field inputfield"cols="24" minlength="4" placeholder="Name Surname" required/><br/>
+                        <label for="mailaddy">Email Address:</label><br/>
+                        <input type="email" name="mailaddy" class="field inputfield"cols="24" placeholder="example@email.com" required/><br/>
+                        <label for="mailaddy">Message Title:</label><br/>
+                        <input type="text" name="msgtitle" class="field inputfield" cols="24"/><br/>
+                        <textarea id="msg" cols="22" rows="7" class="field" minlength="20" placeholder="Leave your message here..." required></textarea><br/>
+                        <button name="submit" name="submitmsg">Submit</button>
+                </form>
+            </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
